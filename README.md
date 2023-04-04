@@ -1,2 +1,2 @@
 # MERN STUFF  
-###  repo contains all my MERN learnings.  
+### This repo contains all my MERN learnings.  
