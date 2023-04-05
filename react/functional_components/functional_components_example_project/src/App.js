@@ -23,9 +23,24 @@ function App() {
         age={31}
         hairColor={"Reddish"}
       />
-      <Product title={"Dehydrated Water"} desc={"Just add 2 cups of water for a refreshing drink."} cost={ 49.98 } />
-      <Product title={"Watermelon"} desc={"Juicy sweet yum yum"} cost={29.98} />
-      <Product title={"Ipad"} desc={"A very expensive ipad from steve job"} cost={100} />
+      <Product
+        title={"Dehydrated Water"}
+        desc={"Just add 2 cups of water for a refreshing drink."}
+        cost={49.98}
+        initialStock={20}
+      />
+      <Product
+        title={"Watermelon"}
+        desc={"Juicy sweet yum yum"}
+        cost={29.98}
+        initialStock={10}
+      />
+      <Product
+        title={"Ipad"}
+        desc={"A very expensive ipad from steve job"}
+        cost={100}
+        initialStock={5}
+      />
     </div>
   );
 }
