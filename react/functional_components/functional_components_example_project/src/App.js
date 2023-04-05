@@ -1,6 +1,7 @@
 import './App.css';
 import Person from './components/Person';
 import Product from "./components/Product";
+import UserForm from "./components/UserForm";
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
         cost={100}
         initialStock={5}
       />
+      <UserForm />
+      
     </div>
   );
 }
