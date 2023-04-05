@@ -2,11 +2,12 @@ import './App.css';
 import Person from './components/Person';
 import Product from "./components/Product";
 import UserForm from "./components/UserForm";
+import NewForm from "./components/NewForm";
 
 function App() {
   return (
     <div className="App">
-      <Person
+      {/* <Person
         firstName={"Josh"}
         lastName={"Wise"}
         age={32}
@@ -41,9 +42,9 @@ function App() {
         desc={"A very expensive ipad from steve job"}
         cost={100}
         initialStock={5}
-      />
-      <UserForm />
-      
+      /> */}
+      {/* <UserForm /> */}
+      <NewForm />
     </div>
   );
 }
