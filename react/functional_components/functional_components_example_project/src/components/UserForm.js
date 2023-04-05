@@ -7,17 +7,17 @@ const UserForm = (props) => {
     const [hasBeenSubmitted, setHasBeenSubmitted] = useState(false);
     const [usernameError, setUsernameError] = useState("");
 
-    const createUser = (e) => {
-        e.preventDefault();
+    // const createUser = (e) => {
+    //     e.preventDefault();
 
-        const newUser = { username, email, password };
-        setUsername("");
-        setEmail("");
-        setPassword("");
+    //     const newUser = { username, email, password };
+    //     setUsername("");
+    //     setEmail("");
+    //     setPassword("");
 
-        setHasBeenSubmitted(true);
+    //     setHasBeenSubmitted(true);
 
-    }
+    // }
 
     const handleUsername = (e) => {
         setUsername(e.target.value);

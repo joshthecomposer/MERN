@@ -1,7 +1,7 @@
 import './App.css';
-import Person from './components/Person';
-import Product from "./components/Product";
-import UserForm from "./components/UserForm";
+// import Person from './components/Person';
+// import Product from "./components/Product";
+// import UserForm from "./components/UserForm";
 import NewForm from "./components/NewForm";
 
 function App() {
