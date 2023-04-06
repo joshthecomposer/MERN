@@ -92,9 +92,9 @@ const NewForm = (props) => {
                 <div>
                     <label>Last Name:</label>
                     <input type="text" onChange={handleLastName} value={lastName} />
-                    <span>{lastNameError}</span>
+                    <span>{ lastNameError }</span>
                 </div>
-                <div>
+                <div>w
                     <label>Email:</label>
                     <input type="text" onChange={handleEmail} value={email} />
                     <span>{ emailError }</span>
@@ -109,7 +109,6 @@ const NewForm = (props) => {
                     <input type="text" onChange={handleConfirm} value={confirm} />
                     <span>{ confirmError }</span>
                 </div>
-
                 <button type="submit">Submit</button>
             </form>
         </div>
