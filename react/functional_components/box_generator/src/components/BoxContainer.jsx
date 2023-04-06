@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "./BoxForm.css"
 
 const BoxContainer = (props) => {
-    
     const { list } = props;
     console.log(list);
     return (
