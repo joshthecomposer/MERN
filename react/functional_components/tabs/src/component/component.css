@@ -1,0 +1,30 @@
+.tab {
+    width: 100px;
+    height: 65px;
+    border: 2px solid black;
+}
+
+.tabs-con {
+    display: flex; 
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.non-selected {
+    background-color: white;
+}
+
+.selected {
+    background-color: lightblue;
+}
+
+.content-box {
+    display: flex; 
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 500px;
+    margin: 50px auto;
+}
